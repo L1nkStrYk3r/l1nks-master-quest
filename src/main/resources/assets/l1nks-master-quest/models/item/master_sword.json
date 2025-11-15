@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "l1nks-master-quest:item/master_sword"
+  }
+}
