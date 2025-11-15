@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:story/mine_diamond",
+  "criteria": {
+    "crafted_adamantite": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "l1nks-master-quest:master_sword"
+      }
+    }
+  },
+  "rewards": {
+    "recipes": ["l1nks-master-quest:master_sword"]
+  },
+  "display": {
+    "icon": { "item": "l1nks-master-quest:master_sword" },
+    "title": { "text": "Found Master Sword" },
+    "description": { "text": "You discovered the Master Sword!" },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "x": 2,
+    "y": 1
+  }
+}
